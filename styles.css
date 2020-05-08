@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./images/pattern.png");
+}
+
+.main {
+    background: #ccc;
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+}
+
+.badge {
+    width: 93px;
+    background: #ee7fcd;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;    
+    position: absolute;
+    top: -15px;
+    left: 37%;
+}
+
+.clock {
+    background: #ebebeb;
+    text-align: center;
+    font-size: 47px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 4px;
+}
